@@ -1,0 +1,45 @@
+.hero {
+	padding: 45px 0 30px;
+}
+
+.container {}
+
+.hero__container {
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/hero/banner.jpg') no-repeat center;
+	background-size: cover;
+	padding: 145px 0 40px 112px;
+	color: var(--main-color);
+	line-height: 1.3;
+	border-radius: 20px;
+}
+
+
+.hero__title {
+	font-size: 70px;
+	margin-bottom: 100px;
+}
+
+.hero__promotion {}
+
+.hero__text {
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.hero__time {}
+
+.time {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+
+.time__text {
+	font-size: 32px;
+}
+
+.time__text-big {
+	font-size: 60px;
+	margin-right: 6px;
+}
