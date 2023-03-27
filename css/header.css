@@ -230,9 +230,13 @@
 }
 
 @media screen and (max-width:500px) {
+	.header {
+		padding: 21px 0 20px;
+	}
+
 	.header__container {
 		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 1fr 1fr 2fr;
+		grid-template-rows: 1fr 1fr 1fr;
 		grid-template-areas:
 			"logo ."
 			"button nav"
@@ -284,6 +288,10 @@
 	.icon-search {
 		width: 20px;
 		min-height: 20px;
+	}
+
+	.header__form {
+		align-self: self-end;
 	}
 
 }
