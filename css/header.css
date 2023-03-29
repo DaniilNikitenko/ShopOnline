@@ -165,9 +165,9 @@
 	}
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:980px) {
 	.header {
-		padding: 25px 0;
+		padding: 25px 0 20px;
 	}
 
 	.header__container {
@@ -229,9 +229,9 @@
 
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:650px) {
 	.header {
-		padding: 21px 0 20px;
+		padding: 21px 0 14px;
 	}
 
 	.header__container {
@@ -242,6 +242,7 @@
 			"button nav"
 			"search search";
 		align-items: self-end;
+		row-gap: 10px;
 	}
 
 	.header__logo {
